@@ -7,7 +7,7 @@ This gem provides a class called `OpenAI::Chat` that is intended to make it as e
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "openai-chat", github: "firstdraft/openai-chat"
+gem "openai-chat"
 ```
 
 And then, at a command prompt:
