@@ -29,10 +29,10 @@ gem install openai-chat
     ```ruby
     x = OpenAI::Chat.new(api_token: "your-token-goes-here")
     ```
-- By default, the gem uses the `gpt-4o` model. If you want something else, you can set it:
+- By default, the gem uses the `gpt-4.1-nano` model. If you want something else, you can set it:
 
     ```ruby
-    x.model = "o3-mini"
+    x.model = "o3"
     ```
 
 ## Simplest usage

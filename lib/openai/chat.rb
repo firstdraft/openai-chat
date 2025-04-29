@@ -9,7 +9,7 @@ module OpenAI
     def initialize(api_token: nil)
       @api_token = api_token || ENV.fetch("OPENAI_TOKEN")
       @messages = []
-      @model = "gpt-4o"
+      @model = "gpt-4.1-nano"
     end
 
     def system(content)
